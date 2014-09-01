@@ -1,0 +1,25 @@
+.nav-pills > li > a{
+	padding: 1px 20px 1px;
+	border-radius: 3px;
+	margin-left: 0px;
+	
+}
+.nav-pills > li.active > a{
+	background-color: red;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: black;
+  background-color: red;
+}
+.nav-pills > li + li{
+	margin-left: 0px;
+}
+
+div.sub-header{
+	background-color: #f5f5f5;
+}
+.nav-style{
+	padding-left: 0px;
+}
