@@ -8,42 +8,41 @@
 </head>
 <body>
 	<div class="container">
-		<div class="row"><header>
-			<h1><a href="index.html">CCI</a></h1>
-			<p></p>
-		</header></div>
-		<div class="row sub-header">
-			<div class="col-md-3 nav-style">
-				<ul class="nav nav-pills nav-stacked">
-					<li class="active"><a href="">HOME</a></li>
-					<li><a href="">EVENT</a></li>
-					<li><a href="">MEMBERSHIP</a></li>
-					<li><a href="">SPONSHORSHIP</a></li>
-					<li><a href="">CONTACT US</a></li>
-					<li><a href="">NEWS</a></li>
-					<li><a href="">F.A.Q</a></li>
-				</ul>
+
+		<div id="header" class="row">
+			<header>
+				<h1><a href="index.html">CCI</a></h1>
+				<p></p>
+			</header>
+		</div>
+		<div id="sub-header" class="row sub-header">
+			<div id="wrapper-nav">
+				<div class="col-md-3 nav-style">
+					<ul class="nav nav-pills nav-stacked">
+						<li class="active"><a href="">HOME</a></li>
+						<li><a href="">EVENT</a></li>
+						<li><a href="">MEMBERSHIP</a></li>
+						<li><a href="">SPONSHORSHIP</a></li>
+						<li><a href="">CONTACT US</a></li>
+						<li><a href="">NEWS</a></li>
+						<li><a href="">F.A.Q</a></li>
+					</ul>
+				</div>
+				<div id="box-event" class="col-md-9">
+					<div class="col-md-5 col-md-offset-1" style="background-color:blue">
+						Upcoming Event
+					</div>
+					<div class="col-md-5 col-md-offset-1" style="background-color:red">
+						Past Event
+					</div>
+				</div>
 			</div>
-			<div class="col-md-9">
-				<div class="col-md-5 col-md-offset-1" style="background-color:blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</div>
-				<div class="col-md-5 col-md-offset-1" style="background-color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-				</div>
+			
 			<!-- 
 			<div class="col-md-3 col-md-offset-1" style="background-color:blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit veniam commodi unde facere, id molestias aperiam ipsum quas qui natus perspiciatis. Omnis pariatur placeat eos, suscipit adipisci nesciunt consequatur sequi!</div>
 			<div class="col-md-3 col-md-offset-1" style="background-color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum rerum nulla, facilis totam eligendi, labore similique sunt aliquam voluptatum iure recusandae eius obcaecati vitae consequatur tempore sit, a at. Illo.</div> -->
 		</div>
-		<div class="row sub-header">
+		<div id="ads" class="row sub-header">
 			<div class="col-md-4">
 				<div class="col-md-5"style="background-color:red">Premium Sponsor</div>
 				<div class="col-md-5 col-md-offset-1"style="background-color:blue">Premium Sponsor</div>
@@ -60,54 +59,102 @@
 			
 		</div>
 		<div id="content" class="row sub-header">
-			<div class="col-md-3 content" style="background-color:blue">
+			<div id="side-ads" class="col-md-3 content" >
 				<div class="col-md-10 col-md-offset-1" style="background-color:red">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					
 				</div>
 			</div>
-			<div id="news" class="col-md-9 content"style="background-color:red">
-				<div  class="col-md-10 col-md-offset-1 news-content" style="background-color:blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			<div id="event" class="col-md-9 content"style="background-color: #ffa500">
+				<div  class="col-md-10 col-md-offset-1 event-content" >
+				
+					<ul class="nav nav-tabs " role="tablist" id="myTab">
+						<li class="active"><a href="#home" role="tab" data-toggle="tab">Home</a></li>
+						<li><a href="#profile" role="tab" data-toggle="tab">Profile</a></li>
+						<li><a href="#messages" role="tab" data-toggle="tab">Messages</a></li>
+						<li><a href="#settings" role="tab" data-toggle="tab">Settings</a></li>
+					</ul>
+
+					<div class="tab-content" style="background-color:#fff">
+					<div class="tab-pane active" id="home">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+					</div>
+						<div class="tab-pane" id="profile">profile</div>
+						<div class="tab-pane" id="messages">Messages</div>
+						<div class="tab-pane" id="settings">Settings</div>
+					</div>
 				</div>
 			</div>
-			<div class="row sub-header">
-				<div class="col-md-4"style="background-color:blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		</div>
+		<div id="footer" class="row sub-header">
+			<div class="col-md-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</div>
-				<div class="col-md-4"style="background-color:red">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</div>
-				<div class="col-md-4"style="background-color:blue">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</div>
+			</div>
+			<div class="col-md-4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</div>
+			<div class="col-md-4">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 			</div>
 		</div>
-	</body>
-	<!-- jQuery -->
-	<script src="dist/js/jquery.js"></script>
-	<!-- Bootstrap JavaScript -->
-	<script src="dist/js/bootstrap.min.js"></script>
+	</div>
+</body>
+<!-- jQuery -->
+<script src="dist/js/jquery.min.js"></script>
+<!-- Bootstrap JavaScript -->
+<script src="dist/js/bootstrap.min.js"></script>
+<script>
+$(document).ready(function(){
 
-	</html>
+    $("#myTab li:eq(1) a").tab('show');
+
+})
+</script>
+
+</html>
